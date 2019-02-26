@@ -1,0 +1,19 @@
+{
+  "name": "notable",
+  "version": "1.0.0",
+  "description": "a simple note taking app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "sampan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
